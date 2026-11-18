@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Actividad 4.2</title>
+</head>
+<body>
+    <form action=" http://ncoge.com/phps/formulario.php" >
+    <table style="width: 100%;">
+         
+        <tr>
+            <td>
+                <fieldset >
+                <legend style="font-weight: bold;">Datos Personales:</legend>
+                Nombre: <input type="text" name="nombre" placeholder="Escribe aquí tu nombre">
+                <br>
+                Apellidos <input type="text" name="apellidos" placeholder="Escribe aquí tus apellidos">
+                <br>
+                Correo: <input type="email" name="correo" placeholder="Escribe aquí tu correo">
+                <br>
+                <br>
+                Hobbies <textarea name="hobbies" style="height: 155px;"></textarea>
+            </fieldset>
+        </td>
+
+        <td>
+            <fieldset>
+                <legend style="font-weight: bold;">Idiomas</legend>
+                <br>
+                Púntua tu nivel de idiomas 1 a 5:
+                <br>
+                <strong>Inglés: </strong> 1 <input type="radio" name="ingles">2 <input type="radio" name="ingles"> 3 <input type="radio" name="ingles"> 4 <input type="radio" name="ingles"> 5 <input type="radio" name="ingles">
+                <br>
+                <strong>Francés: </strong>1 <input type="radio" name="frances">2 <input type="radio" name="frances"> 3 <input type="radio" name="frances"> 4 <input type="radio" name="frances"> 5 <input type="radio" name="frances">
+                <br>
+                <strong>Alemán: </strong>1 <input type="radio" name="aleman"> 2 <input type="radio" name="aleman"> 3 <input type="radio" name="aleman"> 4 <input type="radio" name="aleman"> 5 <input type="radio" name="aleman">
+            </fieldset>
+           
+             <fieldset >
+                <legend style="font-weight: bold;">Domino los siguientes programas</legend>
+                Writer: <input type="checkbox" name="writer" >
+                Base: <input type="checkbox" name="Base">
+                
+                <br>
+                Calc: <input type="checkbox" name="calc">
+                Impress: <input type="checkbox" name="impress">
+            </fieldset>
+           
+            <fieldset>
+                <legend style="font-weight: bold;">Trabajo con el siguiente sistema opertivo</legend>
+                <select name="sysop">
+                    <option value="windows">Windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="linux">Linux</option>
+                    <option value="otro">Otro</option>
+                </select>
+                
+            </fieldset>
+
+        </td>
+                      
+        </tr>
+
+           
+    </table>
+    <div style="text-align: center;"><input type="reset" name="resetear"></div>
+    </form>
+</body>
+</html>
